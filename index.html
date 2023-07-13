@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal vuelo</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="container flight">
+        <main>
+            <section>
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="./index.html">Navbar</a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link active text-black" aria-current="page" href="./index.html">Index</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./search.html">Search</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./formulary.html">Formulary</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./confirmation.html">Confirmation</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!-- body -->
+                <div class="row mt-3 flight__body flight__body_fonts">
+                    <div class="col-12">
+                        <!-- tus busquedas recientes -->
+                        <div class="row">
+                            <div class="col-9 flight__body_fonts--title">
+                                <h3 class="mb-0 fw-bold ">
+                                    Tus búsquedas recientes
+                                </h3>
+                                <p class="mb-0 flight__body_fonts--subtitle fw-light">Vuelos que has buscado previamente
+                                </p>
+                            </div>
+                            <div class="col-3 d-flex justify-content-end align-items-center">
+                                <a href="#" class="removecolorlink">
+                                    <p class="mb-0 text-end colorprimary">limpiar</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- carrucel card -->
+                        <div class="row mt-3 flight__card flight__card--small flight__card--small_font img">
+                            <div class="col-12">
+                                <div class="swiper SwiperBusquedaReciente">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide swiper-2">
+                                            <a href="#" class="removecolorlink">
+                                                <div class="card border-0 shadow-sm rounded-4">
+                                                    <img src="./assets/image/img-tarjeta.png"
+                                                        class="card-img-top img__recent" alt="...">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div
+                                                                class="col-2 d-flex justify-content-center flex-wrap flight__card--small_font--iconBig">
+                                                                <p class="mb-0"><i
+                                                                        class="fa-solid fa-plane colorprimary"></i></p>
+                                                            </div>
+                                                            <div class="col-10">
+                                                                <div class="row">
+                                                                    <div class="col-12">
+                                                                        <p
+                                                                            class="card-title flight__card--small_font--title text-start mb-0 text-black fw-bold">
+                                                                            BOG <span class="mx-2"><i
+                                                                                    class="fa-solid fa-right-left colorprimary"></i></span>
+                                                                            BAQ
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-8">
+                                                                        <p
+                                                                            class="card-text text-start grissubtitulos flight__card--small_font--body pt-1">
+                                                                            <span class="me-2">12 Jun</span>
+                                                                            <span class="border-start border-2 ps-2">15
+                                                                                Jun</span>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <p
+                                                                            class="mb-0 grissubtitulos  text-start">
+                                                                            <span class="me-2"><i
+                                                                                    class="fa-solid fa-user colorprimary ms-2"></i></span>
+                                                                            2
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="swiper-slide swiper-2">
+                                            <a href="#" class="removecolorlink">
+                                                <div class="card border-0 shadow-sm rounded-4 mb-2">
+                                                    <img src="./assets/image/img-tarjeta-dos.png"
+                                                        class="card-img-top img__recent" alt="...">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div
+                                                                class="col-2 d-flex justify-content-center flex-wrap flight__card--small_font--iconBig">
+                                                                <p class="mb-0"><i
+                                                                        class="fa-solid fa-plane colorprimary"></i></p>
+                                                            </div>
+                                                            <div class="col-10">
+                                                                <div class="row">
+                                                                    <div class="col-12">
+                                                                        <p
+                                                                            class="card-title flight__card--small_font--title text-start mb-0 grissubtitulos fw-bold">
+                                                                            BOG <span class="mx-2"><i
+                                                                                    class="fa-solid fa-right-left colorprimary"></i></span>
+                                                                            BAQ
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-8">
+                                                                        <p
+                                                                            class="card-text text-start grissubtitulos flight__card--small_font--body pt-1">
+                                                                            <span class="me-1">12 Jun</span>
+                                                                            <span class="border-start border-2 ps-2">15
+                                                                                Jun</span>
+                                                                        </p>
+                                                                    </div>
+                                                                    <div class="col-4 ">
+                                                                        <p
+                                                                            class="mb-0 grissubtitulos  text-start">
+                                                                            <span class="me-2"><i
+                                                                                    class="fa-solid fa-user colorprimary"></i></span>
+                                                                            2
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- beneficio al alcance de tu mano -->
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <h3 class="mb-0 fw-bold">
+                                    Beneficios al alcance de tu mano
+                                </h3>
+                                <p class="mb-0 flight__body_fonts--subtitle fw-light">Ventajas únicas y
+                                    experiencias excepcionales</p>
+                            </div>
+                        </div>
+
+                        <!-- card grandes -->
+                        <div class="row mt-3">
+                            <div class="col-lg-4 col-12">
+                                <a href="#" class="removecolorlink">
+                                    <div class="card border-0 shadow-sm rounded-4">
+                                        <img src="./assets/image/img-segunda-tarjeta.png" class="card-img-top"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <p
+                                                                class="card-title text-start mb-0 text-black mb-2 fw-bold">
+                                                                Únete a CyberCard
+                                                            </p>
+
+                                                            <p
+                                                                class="card-text text-start grissubtitulos fw-light">
+                                                                Qorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. Etiam eu turpis molestie,
+                                                                dictum est a, mattis tellus. Sed dignissim,
+                                                                metus.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-4 col-12 mt-3 mt-lg-0">
+                                <a href="#" class="removecolorlink">
+                                    <div class="card border-0 shadow-sm rounded-4">
+                                        <img src="./assets/image/img-segunda-tarjeta-dos.png"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <p
+                                                                class="card-title text-start mb-0 text-black mb-2 fw-bold">
+                                                                Acumula puntos con cada compra
+                                                            </p>
+
+                                                            <p
+                                                                class="card-text text-start grissubtitulos fw-light">
+                                                                Qorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. Etiam eu turpis molestie,
+                                                                dictum est a, mattis tellus. Sed dignissim,
+                                                                metus.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-4 col-12 mt-3 mt-lg-0">
+                                <a href="#" class="removecolorlink">
+                                    <div class="card border-0 shadow-sm rounded-4">
+                                        <img src="./assets/image/img-segunda-tarjeta-tres.png"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <p
+                                                                class="card-title text-start mb-0 text-black mb-2 fw-bold">
+                                                                Viaja de manera confiable
+                                                            </p>
+
+                                                            <p
+                                                                class="card-text text-start grissubtitulos fw-light">
+                                                                Qorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit. Etiam eu turpis molestie,
+                                                                dictum est a, mattis tellus. Sed dignissim,
+                                                                metus.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <div class="row mt-5 mx-1 mx-lg-3">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-4 d-flex justify-content-center d-none d-md-block">
+                            <img src="./assets/image/imagenflooter.png" class="img-fluid" alt="imagenflooter">
+                        </div>
+                        <div class="col-12 col-md-6 my-auto">
+                            <p class="fs-1 fw-bold text-center">DESCARGA TU APP CYBERCARD</p>
+                            <p class="text-center fw-medium">Y ENTRA EN UN MUNDO LLENO DE AHORROS Y BENEFICIOS</p>
+
+                            <div class="col-12 col-md-4 d-flex justify-content-center d-block d-md-none my-4">
+                                <img src="./assets/image/imagenflooter.png" class="img-fluid" alt="imagenflooter">
+                            </div>
+
+                            <div class="row ">
+                                <div class="col-6 d-flex justify-content-center">
+                                    <img src="./assets/image/btn-googlepaly.png" class="img-fluid" alt="btnpstore">
+                                </div>
+
+                                <div class="col-6 d-flex justify-content-center">
+                                    <img src="./assets/image/btn-appstore.png" class="img-fluid" alt="btnapple">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-2 my-md-auto d-flex justify-content-center mt-5 mb-5">
+                            <img src="./assets/image/codigo-qr.png" class="img-fluid" alt="codigoqr">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/12335c3d20.js" crossorigin="anonymous"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="./assets/js/app.js"></script>
+</script>
+
+</html>
