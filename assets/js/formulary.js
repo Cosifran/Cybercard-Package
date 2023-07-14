@@ -1,11 +1,10 @@
 //obtengo la informacion de los check y el boton
 function checkButtonAvailability() {
-    const termsCheckbox = document.getElementById('termsCheckbox');
     const privacyCheckbox = document.getElementById('privacyCheckbox');
     const payButton = document.getElementById('payButton');
     const payButtonResponsive = document.getElementById('payButtonResponsive');
     //valida si los botones están check
-    if (termsCheckbox.checked && privacyCheckbox.checked) {
+    if ( privacyCheckbox.checked) {
         //elimina el atributo aria disabled
         payButton.removeAttribute('aria-disabled');
         payButtonResponsive.removeAttribute('aria-disabled');
