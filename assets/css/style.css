@@ -460,6 +460,15 @@ body {
     font-size: 1rem;
   }
 }
+.formulary__cards_card_purchase-detail_fonts--bodySm {
+  font-size: 0.8rem;
+}
+.formulary__cards_card_purchase-detail_fonts--bodyMd {
+  font-size: 0.875rem;
+}
+.formulary__cards_card_purchase-detail_fonts--bodyLg {
+  font-size: 0.938rem;
+}
 
 .confirmation__body_fonts--iconsMd {
   font-size: 4rem;

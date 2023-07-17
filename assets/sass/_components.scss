@@ -429,6 +429,24 @@ body {
           }
       }
   }
+
+  &__cards{
+    &_card_purchase-detail{
+      &_fonts{
+        &--bodySm{
+          font-size: globals.$font-cardSmall;
+        }
+
+        &--bodyMd{
+          font-size: globals.$fon-5;
+        }
+
+        &--bodyLg{
+          font-size: globals.$font-card
+        }
+      }
+    }
+  }
 }
 
 //confirmation component
